@@ -12,7 +12,7 @@ bi="\033[36;1m"
 u="\033[1;35m"
 p="\033[0m"
 lagi(){
-	printf $p"\n[${m}!${p}] ${u}Mau Spam Call Lagi? ${p}[y/n]${m}:${h} " nanya
+	printf $p"\n[${m}!${p}] ${u}Lagi? ${p}[y/n]${m}:${h} " nanya
 	read nanya;
 	if [[ $nanya == y ]] || [[ $nanya == Y ]]; then
 	sleep 1;__main__
